@@ -1,0 +1,443 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600);
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                   CONTENEDOR GENERAL                                        */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.container{
+    background-image: url(../img/back4.jpg);
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                       HEADER                                                */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 600px) { /* 768 px */
+    /* For mobile phones: */
+    .header{
+      height: 42em !important;
+    }
+  }
+
+.header{
+    height: 56em;
+    /* max-width: 100%; */
+    background-image: url(../img/back4.jpg);
+    /* border: 3px solid black; */
+}
+.header img{
+    display: block;
+    margin: 0 auto;
+    max-width: 68em;
+    /* min-width: 25em; */
+    width: 100%;
+    margin-top: 1em;
+}
+.header h2{
+    font-size: 230%;
+    margin-top: -10px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: white;
+    transition:all 1.5s ease-out;
+}
+.header h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    transition:all 1.5s ease-out;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                       HABILIDADES                                           */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.contenido{
+    background-image: url(../img/back3.jpg);
+    display: block;
+    margin-top: -1%;
+    max-width: 100%;
+    width: 100%;
+    height: 41vw;
+    max-height: 440px;
+    background-color:ghostwhite;
+    border: 1% solid black;
+}
+.contenido h1{
+    font-family: 'Indie Flower', cursive;;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.contenido hr{
+
+    width: 100%;
+    border-color: white;
+}
+.iconos{
+    display: block;
+    max-width: 52%;
+    min-width: 30%;
+    margin-left: 26%;
+    margin-top: 1%;
+}
+.iconos img{
+    margin: 0 auto;
+    float: left;
+    display: block;
+    max-width: 25%;
+    min-width: 28%;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 4%;
+    transition:all 1.5s ease-out;
+}
+.iconos img:hover{
+    transform: rotate(15deg);
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                       SOBRE MI                                              */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.about{
+    background-image: url(../img/back4.jpg);
+    height: 37em;
+    /* max-height: 600px; */
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: -1%;
+}
+
+@media only screen and (max-width: 600px) { /* 768 px */
+    /* For mobile phones: */
+    [class*="about"] {
+      height: 45em;
+    }
+  }
+
+.about h1{
+    font-family: 'Indie Flower', cursive;;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.about hr{
+    width: 100%;
+    border-color: white;
+}
+.textoabout{
+    max-width: 50%;
+    margin: auto;
+    max-width: 620px;
+    max-height: 400px;
+}
+.textoabout p{
+   margin-top: 50px;
+   color: white;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-family: sans-serif;
+   text-align: justify;
+   font-size: 18px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                       ESTUDIOS / EXPERIENCIA                                */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.estudios{
+    background-image: url(../img/back3.jpg);
+    width: 100%;
+    height: 55em;
+    background-color:ghostwhite;
+    margin-top: -1%;
+}
+
+@media only screen and (max-width: 1000px) { /* 768 px */
+    /* For mobile phones: */
+    [class*="estudios"] {
+      height: 100em;
+    }
+  }
+
+.estudios h1{
+    font-family: 'Indie Flower', cursive;;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#circulo1 {
+    margin: 2em;
+  }
+
+#circulo1 p {
+    line-height: 1.8;
+    margin-left: 20%;
+    color: white;
+}
+
+#circulo1 h1 {
+    margin-right: 10%;
+    font-weight: bold;
+    color: black;
+}
+
+#circulo1 .curve {
+    width: 15%; height: auto;
+    min-width: 150px;
+    float: left;
+    margin-right:1em;
+    border-radius: 45%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+
+#circulo2 {
+    margin: 2em;
+  }
+
+#circulo2 p {
+    line-height: 1.8;
+    margin-left: 20%;
+    color: white;
+}
+
+#circulo2 h1 {
+    margin-right: 10%;
+    font-weight: bold;
+    color: black;
+}
+
+#circulo2 .curve {
+    width: 15%; height: auto;
+    min-width: 150px;
+    float: left;
+    margin-right:1em;
+    border-radius: 45%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+
+#circulo3 {
+    margin: 2em;
+}
+
+#circulo3 p {
+    line-height: 1.8;
+    margin-left: 20%;
+    color: white;
+}
+
+#circulo3 h1 {
+    margin-right: 10%;
+    font-weight: bold;
+    color: black;
+}
+
+#circulo3 .curve {
+    width: 15%; height: auto;
+    min-width: 150px;
+    float: left;
+    margin-right:3em;
+    border-radius: 45%;
+    -webkit-shape-outside:circle();
+    shape-outside:circle();
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                       SECCIÓN PROYECTOS                                     */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.proyectos{
+    background-image: url(../img/back4.jpg);
+    display: block;
+    max-width: 100%;
+    height: 55em;
+    background-color: lightgray;
+    margin-top: -1%;
+}
+
+.proyectos h1{
+    font-family: 'Indie Flower', cursive;;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 600px) { /* 768 px */
+    /* For mobile phones: */
+    [class*="proyectos"] {
+      height: 60em;
+    }
+  }
+
+  @media only screen and (max-width: 600px) { /* 768 px */
+    /* For mobile phones: */
+    [class*="galeria li img"] {
+      width: 30%;
+      height: 30%;
+    }
+  }
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                               SECCIÓN PROYECTOS -> GALERIA DE IMAGENES                      */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.galeria{
+    width:100%;
+    height:100%;
+}
+
+.galeria ul{
+    position:absolute;
+    width:80%;
+    height:20%;
+    margin-left: 10%;
+}
+.galeria li{
+    position:relative;
+    float:left;
+    width:33.33%;
+    height:40%;
+}
+.galeria li img{
+    position:absolute;
+    width:70%;
+    /* height:70%; */
+    margin:15%;
+    background:#ddd;
+    transform:rotate(4deg);
+    transition:all 1.5s ease-out;
+}
+.galeria li img:hover{
+    width:90%;
+    /* height:90%; */
+    margin:5%;
+    transform:rotate(0deg);
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                            CONTACTO                                         */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.contacto{
+    background-image: url(../img/back3.jpg);
+    max-width: 100%;
+    height: 500px;
+    background-color: ghostwhite;
+    margin-top: -1%;
+}
+.contacto h1{
+    font-family: 'Indie Flower', cursive;;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.contacto hr{
+    width: 100%;
+    border-color: white;
+}
+
+.redes {
+    float: left;
+    width: 24em;
+    padding-left: 13%;
+    padding-top: 5%;
+}
+
+.redes:hover {
+    transform:scale(1.4);
+    transition: 1s ease-out;
+}
+
+.redes img {
+    width:40%;
+}
+
+@media only screen and (max-width: 1200px) { /* 768 px */
+    /* For mobile phones: */
+    [class*="contacto"] {
+      height: 47em;
+    }
+    [class*="redes"] {
+        margin-left: 108px;
+      }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                           PIE DE PÁGINA                                     */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+.piepagina{
+    position: static;
+    margin-top: -1%;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.piepagina p{
+    line-height: 100px;
+    color: white;
+    text-align: center;
+}
+.piepagina p a{
+    color: white;
+    font-family: sans-serif;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+/*                                        MENÚ HAMBURGUESA                                     */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fa-bars{
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0.5em;
+    font-size: 1.8em;
+    color: white;
+}
+
+.fa-bars:hover{
+    color: red;
+}
+
+#menu{
+    position: fixed;
+    top: 3em;
+    left: 0;
+    display: none;
+}
+
+#menu > ul > li{
+    background-color: black;
+    list-style: none;
+    padding: 0.4em;
+    width: 200px;
+    font-size: 22px;
+}
+
+#menu > ul > li > a{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+
+#menu > ul > li:hover{
+    background-color: red;
+    width: 160px;
+    transition: width 1s;
+}
